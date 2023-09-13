@@ -1,0 +1,38 @@
+h1 {
+  font-family: "Helvetica";
+  color: #fef6eb;
+}
+h3 {
+  font-family: "Helvetica";
+  color: #c25b56;
+}
+body {
+  background-color: #525564;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Georgia";
+}
+p {
+  font-family: "Georgia";
+  color: #fef6eb;
+}
+table {
+  font-family: "Georgia";
+  color: #fef6eb;
+}
+ul {
+  font-family: "Georgia";
+  color: #fef6eb;
+}
+a {
+  color: #96c0ce;
+  text-decoration: none;
+}
+a:hover {
+  color: #74828f;
+  text-decoration: underline;
+}
+a:visited {
+  color: #beb9b5;
+  text-decoration: none;
+}
