@@ -1,0 +1,38 @@
+body {
+  background-color:#F9E6F6
+	;margin-left: 20%; 
+	margin-right: 20%;
+	font-family: tahoma;
+	font-size: 14px
+}
+
+h1 {
+	font-size: 20px
+	;color: #000066
+}
+
+a { color: grey;
+                    background-color: transparent;
+                    text-decoration: none;
+                    
+                a:visited {
+                    color: violet;
+                    background-color: transparent;
+                    text-decoration: none;
+                }
+                
+                a:hover {
+                    color: black;
+                    background-color: transparent;
+                    text-decoration: underline; 
+                    }
+h2 {
+	color: #06002E
+	font-size: 18px
+
+table {  padding: 10px;
+                border: 1px #fcd9f7;
+                border-collapse: collapse;
+                background-color: #D0A9F5
+                }
+
