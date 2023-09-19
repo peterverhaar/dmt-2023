@@ -3,7 +3,7 @@
 <!ELEMENT expression (#PCDATA)>
 <!ELEMENT math (#PCDATA | expression | evaluation)*>
 <!ELEMENT french (#PCDATA)>
-<!ELEMENT entities (#PCDATA | maths | french)*>
+<!ELEMENT entities (#PCDATA | math | french)*>
 <!ELEMENT evaluation (#PCDATA)> ]>
 
 <entities>
