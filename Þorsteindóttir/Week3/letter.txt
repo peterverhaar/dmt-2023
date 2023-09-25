@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE letter [
+
+<!ELEMENT letter (contents)+>
+<!ELEMENT contents (name | date | booktitle | location | quote | company | text)*>
+<!ELEMENT name (namesender | namerecipient | nameother)*>
+<!ELEMENT namesender (#PCDATA)*>
+<!ELEMENT namerecipient (#PCDATA)*>
+<!ELEMENT nameother (#PCDATA)*>
+<!ELEMENT date (datesend | dateother)*>
+<!ELEMENT datesend (#PCDATA)*>
+<!ELEMENT dateother (#PCDATA)*>
+<!ELEMENT booktitle (booktitlemain | booktitleother)*>
+<!ELEMENT booktitlemain (#PCDATA)*>
+<!ELEMENT booktitleother (#PCDATA)*>
+<!ELEMENT location (locationsender | locationrecipient | locationother)*>
+<!ELEMENT locationsender (#PCDATA)*>
+<!ELEMENT locationrecipient (#PCDATA)*>
+<!ELEMENT locationother (#PCDATA)*>
+<!ELEMENT quote (#PCDATA)*> 
+<!ELEMENT company (#PCDATA)*>
+<!ELEMENT text (#PCDATA)*>
+
+]>
+
+<letter>
+    <contents>
+    <text> COPY.</text>
+
+    <company>Harcourt, Brace and Company, Inc. Publishers</company>
+<location>
+        <locationsender>383 Madison Avenue, New York </locationsender>
+</location>
+<date>
+    <datesend>July 12, 1929.</datesend>
+</date>
+<name>
+    <namerecipient>Mrs. Virginia Woolf,</namerecipient></name>
+<location>
+    <locationrecipient>52 Tavistock Square,
+        London, W.C.1.</locationrecipient>
+</location>
+
+ <text>Dear</text> 
+ <name>
+    <namerecipient> Mrs. Woolf: </namerecipient> 
+ </name>
+ <text>Thank you for your letter of</text> <date> <dateother> June 30th </dateother> </date> <text>enclosing the signed copy of the 
+ agreement for</text> <booktitle><booktitlemain> A ROOM OF ONE'S OWN </booktitlemain></booktitle><text>. I am quite willing to have you retain
+the Canadian rights if you wish.</text>
+<text> In regard to serialization, I had been doing nothing because I thought it was your wish to abandon the idea. 
+    In</text><name><nameother>Mr. Woolf's</nameother></name><text>letter of</text><date><dateother>May 16th,</dateother></date>
+    <text>he said:</text> <quote>"We will not trouble about serialization, but go straight ahead with publication in book form."</quote> <text>
+    And besides, the manuscript has been in </text> <name><nameother>Mr. Wells's</nameother></name><text> hands. I got the manuscript back
+    from him yesterday, and have delivered it to </text><company> The Bookman (underscore).</company> <text> I am sorry if I have misinterpreted 
+        your wishes, but no doubt there is still time as far as </text> <company>The Bookman (underscore)</company> <text>is concerned.
+
+Meanwhile, just after I received your letter,</text><name><nameother>Curtis Brown's</nameother></name><text> office telephoned to ask if they
+could get the manuscript, saying that they had a message from you to get in touch with us about it. I believe</text><company> 
+The Bookman (underscore)</company> <text>had already been asking</text> <name><nameother>Curtis Brown.</nameother></name><text> 
+If I get further inquiries from </text><name><nameother>Curtis Brown,</nameother></name><text>I shall tell them that we are dealing 
+with the matter by your instructions. Of course, if it appears that the business ought to go through with 
+</text><name><nameother>Curtis Brown</nameother></name><text> and they ought to have commission, we should be glad to stand aside as 
+far as any commission is concerned and continue to do what we can do to dispose of the rights.</text>
+
+ <name><nameother>Mr. Wells</nameother></name> <text>tells me that he has made you an offer in respect to a limited edition. If there is to 
+ be a limited edition, we shall gladly co-operate with</text> <name><nameother>Mr. Wells</nameother></name><text> and with you in 
+ regard to arranging dates of publication and protection of the copyright. I hope it may be possible for you to send soon finally corrected 
+ proofs, especially if there is to be a limited edition. If you could arrange to send duplicate final proofs so that</text>
+ <name><nameother>Mr. Wells</nameother></name><text> could have one set and we could have the other, matters would be greatly expedited.
+
+over/
+
+2.
+
+There is one thing about the limited edition matter which I think I ought to mention, though I do so with some hesitation. When I recommended
+the publication of a limited edition of</text> <booktitle><booktitleother>ORLANDO</booktitleother></booktitle> <text>by</text> 
+<name><nameother> Mr. Gaige,</nameother></name> <text>my recommendation was based on long knowledge of him and complete certainty of his
+reliability. As for his successors, I have not the same knowledge or the same certainty, and I should have hesitated to make a similar 
+recommendation. Of course, you are dealing with</text> <name><nameother>Messrs (unsure). Wells</nameother></name><text>and</text>
+<name><nameother>(unsure about this word)</nameother></name><text>direct, and it is probably all right for you to take
+whatever risk is involved. It is simply that I really know next to nothing about them, and that in succeeding</text>
+<name><nameother>Mr. Gaige,</nameother></name> <text>they do not succeed the 
+complete confidence I have in him. Please don't take this any more seriously than it is intended.</text>
+
+        <text>With kindest regards to yourself and </text><name><nameother>Mr. Woolf,</nameother></name>
+        <text>Yours sincerely,</text>
+        <name><namesender>Donald C. Brace.</namesender></name>
+
+        <text>DCB/CMc</text>
+ </contents>
+</letter>
