@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="attributes.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<letter1>
+
+    <details>
+        <ms>MS 2750/153/18 </ms>
+        <publisher>
+        BORZOI BOOKS<br>ALFRED A.KNOPF,Inc<br>New York
+        </publisher>
+        <cable>Cable: KNOPFALFA,Westcent,London<br>
+        Please send Books and Parcels to 37 Bedford Square, W.C.1</cable>
+    </details>
+
+    <sender>
+     <name>From R.W.Postgate,European Representative</name>
+     <address>4 Elm Close<br>
+     London N W 4</address>
+    </sender>
+
+    <receiver>
+     <name>Leonard Woolf,Esq.,</name>
+     <company>The Hogarth Press,</company>
+     <address>52,Tavistock Square,<br>
+     W.C.I.</address>
+    </receiver>
+
+    <date>
+    31st<br>January,<br>1931.
+    </date>
+ 
+    <body>
+    
+     <maintext1>
+     Dear Mr.Woolf,<br>
+     The trouble about the rise of 15% lies in the <br>
+     figures of American production costs, which are of course, higher <br>
+     than over here, and in the fact that the American bookseller has <br>
+     established a claim to a higher percentage reduction from the <br>
+     publisher than he receives over here. We can make a profit on<br>
+     15%, but only if we are able to have a run of something like<br>
+     10,000 copies at the beginning - that is to say, if the author's<br>
+     market is established. If we have to print in driblets, 15%<br>
+     to the author just wipes out our profit. Ten per cent we <br>
+     can do. Now, Hampson may be a great success, but at the best <br>
+     he is an experiment. I don't know exactly what shall print,<br>
+     but I am sure it will have to be small.
+    </maintext1>
+
+    <maintext2>
+    Some day , hempson, I hope will be a big <br>
+    seller. but if this is to be so, it will have to be partly<br>
+    our doing. It is really to his interest to let us have a <br>
+    chance and not press too hard at the beginning.
+    </maintext2>
+
+    <Greetings>
+    Yours sincerely, <br>
+    R.W.Postgate *signature*<br>
+    R.W.Postgate.
+    HM.
+    </Greetings>
+    </body>
+</letter1>
