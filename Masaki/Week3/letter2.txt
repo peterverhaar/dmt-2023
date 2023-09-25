@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="attributes.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<letter2>
+
+    <ms>MS 2750/361/1 </ms>
+    <title>W.COLLINS SONS &amp;Co_LTD_</title>
+
+    <details>
+        <TELEPHONES> TELEPHONES:GERRARD 2026&amp;2027</TELEPHONES>
+        <address>48 PALL MALL S.W.1</address>
+        <data>26th August, 1930.</data>
+    </details>
+
+    <body>
+        <sender>
+        The Hogarth Press, <br>52, Tavistock Square,<br>W.C.1.
+        </sender>
+
+        <maintext1>Dear Sirs,<br>
+        We are arranging to publish a little <br>
+        anthology of war poems, and we should <br>
+        very much like to include in it the poem<br>
+        Voices of Women by Frank Prewett.</maintext1>
+
+        <maintext2>We should be very glad if you could<br>
+        give us permission to include this poem,<br>
+        and perhaps you would kindly state what<br>
+        fee you would require.</maintext2>
+
+        <Greetings>Yours faithfully, <br>
+        W.COLLINS SONS&amp;Co_LTD_</Greetings>
+
+    </body>
+
+</letter2>
