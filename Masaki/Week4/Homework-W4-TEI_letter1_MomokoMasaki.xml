@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+
+ <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    ABOUT FUTURE MARKETING STRATEGIES 
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            London
+                        </placeName>
+                        <date when="YYYY-MM-DD">
+                            31st January 1931
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                           <persName>Leonard Woolf,Esq.</persName> 
+                           <orgName>The Hogarth Press</orgName>
+                        </addrLine>
+                        <addrLine>
+                            52,Tavistock Square <lb/> W.C.I.
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Mr.Woolf
+                    </salute>
+                </opener>
+
+                <p>
+                    The trouble about the rise of 15% lies in the <lb/>
+                    figures of American production costs, which are of course, higher <lb/>
+                    than over here, and in the fact that the American bookseller has <lb/>
+                    established a claim to a higher percentage reduction from the <lb/>
+                    publisher than he receives over here. We can make a profit on<lb/>
+                    15%, but only if we are able to have a run of something like<lb/>
+                    10,000 copies at the beginning - that is to say, if the author's<lb/>
+                    market is established. If we have to print in driblets, 15%<lb/>
+                    to the author just wipes out our profit. Ten per cent we <lb/>
+                    can do. Now, Hampson may be a great success, but at the best <lb/>
+                    he is an experiment. I don't know exactly what shall print,<lb/>
+                    but I am sure it will have to be small. <lb/>
+
+                </p>
+
+                <p>
+                    Some day , hempson, I hope will be a big <lb/>
+                    seller. but if this is to be so, it will have to be partly<lb/>
+                    our doing. It is really to his interest to let us have a <lb/>
+                    chance and not press too hard at the beginning.
+                </p>
+
+                <closer>
+                <persNname>R.W.Postgate,European Representative</persNname>
+                <orgName>ALFRED A.KNOPF,Inc <lb/>New York</orgName>
+                <address>
+                    4 Elm Close<lb/>London N W 4
+                </address>
+                    <salute>
+                        Yours sincerely,
+                    </salute>
+                    <signed/>
+                   
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
