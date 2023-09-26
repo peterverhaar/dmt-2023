@@ -116,12 +116,8 @@
                     </dateline>
                     <address>
                         <addrLine>
-                            <orgName>
-                                for The Hogarth Press Ltd.
-                             </orgName>
-                        </addrLine>
-                        <addrLine>
-                            Arthur Pell,Esq.,
+                            <persName type="recipient">Arthur Pell,Esq.,</persName>
+                            <orgName key="Q2910098">Liveright Publishing Corporation</orgName>
                         </addrLine>
                         <addrLine>
                             Liveright Publishing Corporation,
@@ -169,6 +165,9 @@
                     </salute>
                     <signed>
                         AB
+                    </signed>
+                    <signed>
+                        for The Hogarth Press Ltd.
                     </signed>
                 </closer>
             </div>
