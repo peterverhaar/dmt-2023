@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Warren explains that his anthology has not yet been published. He hopes that the book will be out in the summer and as soon as it is published the fee will be forwarded
+                    
+                    Handwritten letter signed by Warren.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1946-04-20">
+                            20 .iiii. 46
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <orgName>
+                                The Hogarth Press
+                            </orgName>
+                        </addrLine>
+                        <addrLine>
+                            37 Mecklenburgh Sq. WL.
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Sirs,
+                    </salute>
+                </opener>
+                <p>
+                    In reply to 
+                    <lb/> 
+                    your inquiry concerning an 
+                    <lb/> 
+                    anthology the Good Life (Eyre 
+                    <lb/>
+                    &#x26; Spottiswoode), this has not 
+                    <lb/>
+                    1st been published. 
+                    <lb/> 
+                    For reasons which will be all to familiar to 
+                    <lb/> 
+                    you, it has been 
+                    <lb/> 
+                    continuously held up. 
+                    <lb/> 
+                    It is 
+                    <lb/> 
+                    hoped, however, that the book 
+                    <lb/> 
+                    will appear this summer; &#x26;, 
+                    <lb/> 
+                    of course, as soon as it is 
+                    <lb/> 
+                    published, the fee for Mr, Frank 
+                    <lb/> 
+                    Prewett poem will be forwarded
+                    <pb/>
+                        to you.
+                </p>
+                <closer>
+                    <salute>
+                        Yours faithfully
+                    </salute>
+                    <signed>
+                        Henry Warren
+                    </signed>
+                    <address>
+                        <addrLine>
+                            Timbers 
+                        </addrLine>
+                        <addrLine>
+                            Finchingfield
+                        </addrLine>
+                        <addrLine>
+                            N. Braintree 
+                        </addrLine>
+                    </address>
+                    <placeName>
+                        Essex
+                    </placeName>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
