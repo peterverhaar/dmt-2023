@@ -1,3 +1,6 @@
+unintelligible text
+COPY
+
 Harcourt, Brace and Company, Inc. Publishers,
 383 Madison Avenue,
 New York.
@@ -39,6 +42,9 @@ soon finally corrected proofs, especiialy if there is to be a
 limited edition. If you could arrange to send duplicate final
 proofs so that Mr. Wells could have one set and we could have
 the other, matters would be greatly expedited.
+
+                                                        cver/
+
         There is one thing about the limited edition matter
 which I think I ought to mention, though I do so with some
 hesitation. When I recommend the publication of a limited 
@@ -56,3 +62,5 @@ seriously than if it is intended.
         With kindest regards to youself and Mr. Woolf,
                                 Yours sincerely,
                                 Donald C. Brace.
+
+DCB/CMc
