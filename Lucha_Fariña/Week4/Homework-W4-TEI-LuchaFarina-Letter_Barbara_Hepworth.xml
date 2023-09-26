@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    <!-- summary of contents -->
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="YYYY-MM-DD">
+                            June 30th, 1938
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName>Barbara Hepworth</persName> <lb/> 
+                        </addrLine>
+                        <addrLine>
+                            Dr. Violet Kelynack <lb/>
+                            Netolal Women’s Federation,<lb/> 
+                            9, Glifford Street,<lb/>
+                            Hond Street, W.l.<lb/>
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Madam,
+                    </salute>
+                </opener>
+                <p>
+                    In reply to your card of June 29th, we <lb/> 
+                    are enclosing a review copy of <emph rend="underlined">Three Guineas</emph>. We shall <lb/> 
+                    be interested to see your quarterly review with the <lb/>
+                    notice when It appears.<lb/> 
+                    As you will see, in <emph rend="underlined">Three Guineas</emph> Mrs. <lb/>
+                    Woolf concerns herself with the present status of women,<lb/>
+                    and with the urgent question <emph rend="underlined">What Does A Women Do To Prevent</emph> <lb/> 
+                    <emph rend="underlined">War?</emph> Like A ROOM OF ONE’s OWN, <emph rend="underlined">Three Guineas in essential </emph><lb/>
+                    reading for any women with an interest in present day affairs, <lb/>
+                    and who has not?<lb/>
+                    We are having a number of cards printed to <lb/>
+                    bring this book to the attention of an even wider audience than<lb/>
+                    it has already obtained, and I am wondering weather you would be <lb/>
+                    willing either to send it out to your members, possibly with <lb/>
+                    material of your own, or if you would provide us with a list to <lb/>
+                    whom we could dispatch.<lb/>
+                    The book was the subject of a lander in a recent<lb/>
+                    issue of The Time Literary Supplement, in which Mrs. Woolf was <lb/>
+                    described as the most brilliant pamphleteer in England, and it was<lb/>
+                    furthermore suggested that “this brilliant and searching pamphlet<lb/>
+                    might mark an epoch in the world’s history.” Let us hope that<lb/>
+                    this may be so!<lb/>
+                </p>
+                <closer>
+                    <salute>
+                        Yours very truly, <lb/>
+                        Manager. <lb/>
+                    </salute>
+                    <signed>AL</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
