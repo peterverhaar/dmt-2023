@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    <!-- summary of contents -->
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            BELFAST
+                        </placeName>
+                        <date when="1939-11-09">
+                            November 9th, <lb/>1939
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName>Leonard Woolf Esq.,</persName>
+                        </addrLine>
+                        <addrLine>
+                            <orgName>The Hogarth Press,</orgName>
+                        </addrLine>
+                        <addrLine>
+                            37, Mecklenburgh Square,
+                        </addrLine>
+                        <addrLine>
+                            LONDON. W.C.L.
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Mr. Woolf:
+                    </salute>
+                </opener>
+                <p>
+                    I enclose a carbon copy of a commentary which I have <lb/>just written on <persName>Ivan Bunin</persName>’s story <emph rend="underlined"><title>The Gentleman from <lb/>San Francisco</title></emph>. This is based largely on the translat- <lb/>ion by yourself, <persName>D.H.Lawerence</persName>, and <persName>S.S.Koteliansky</persName> which <lb/>you re-issued in 1934, and it forms part of a book I am <lb/>writing, a notebook with commentaries on books and events, <lb/>on the lines of my <emph rend="underlined"><title>From the Irish Shore</title></emph>, published in <lb/>1936 by <orgName>Rich &amp; Cowan</orgName>.
+                </p>
+                <p>
+                    Meanwhile I had thought of using this section of my book <lb/>as a magazine article, and I was wondering if you would <lb/>have any objection to the quotations as shown in the <lb/>enclosed carbon copy. The total number of words quoted <lb/>is, at a rough calculation, about 1500, and the number of <lb/>separate quotations 11. Acknowledgement would, of <lb/>course, be made, as shown. I’m sorry the carbon is not <lb/>more distinct, but it is a bottom copy.
+                </p>
+                <p>
+                    I enclose a stamped, addressed envelope. 
+                </p>
+                <closer>
+                    <salute>
+                        Yours sincerely,
+                    </salute>
+                    <signed>
+                        DENIS IRELAND
+                    </signed>
+                    <address>
+                        <addrLine>
+                            17, Wellington Park Terrace,
+                        </addrLine>
+                        <addrLine>
+                            BELFAST.
+                        </addrLine>
+                    </address>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
