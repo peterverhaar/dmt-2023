@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    TEI ID: Q40909_19290712.xml
+                    This is a letter sent by <persName key="Q5294054">Mr.Donald C. Brace</persName>, addressed to 
+                    <persName key="Q40909">Mrs.Virginia Woolf</persName>.
+                    The letter concerns the publication of <persName key="Q40909">Mrs.Woolf's</persName> title <title>A Room of One's Own</title>,
+                    as well as the possible publication of a limited edition. The letter includes discussions on the rights of publication
+                    and the parties involved with her current title, as well as her previous title <title>Orlando</title>.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            New York
+                        </placeName>
+                        <date when="1929-07-12">
+                           July 12, 1292
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName key="Q40909">
+                                Mrs.Virginia Woolf
+                            </persName>
+                        </addrLine>
+                        <addrLine>
+                            52 Tavistock Square
+                        </addrLine>
+                        <addrLine>
+                            London, W.C.1
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear <persName key="Q40909">Mrs.Woolf</persName>:
+                    </salute>
+                </opener>
+                <p>
+                    Thank you for your letter of June 30th enclosing the 
+                    <lb/>signed copy of the agreement for <title>A ROOM OF ONE'S OWN</title>. I am 
+                    <lb/>quite willing to have you retain the Canadian rights if you wish.
+                </p>
+                <p>
+                    In regard to serialization, I had been doing nothing 
+                    <lb/>because I thought it was your wish to abandon the idea. In 
+                    <lb/><persName key="Q703935">Mr.Woolf's</persName> letter of May 16th, he said: "We will not trouble 
+                    <lb/>about serialization, but go straight ahead with publication in 
+                    <lb/>book form." And besides, the manuscript has been in <persName>Mr.
+                    <lb/>Wells's</persName> hands. I got the manuscript back from him yesterday, 
+                    <lb/>and have delivered it to <emph rend="underlined">The Bookman</emph>. I am sorry if I have 
+                    <lb/>misinterpreted your wishes, but no doubt there is still time 
+                    <lb/>as far as <emph rend="underlined">The Bookman</emph> is concerned.
+                </p>
+                <p>
+                    Meanwhile, just after I received your letter, <persName>Curtis 
+                    <lb/>Brown's</persName> office telephoned to ask if they could get the manuscript, 
+                    <lb/>saying that they had a message from you to get in touch with 
+                    <lb/>us about it. I believe <emph rend="underlined">The Bookman</emph> had already been asking 
+                    <lb/><persName>Curtis Brown</persName>. If I get further inquiries from <persName>Curtis Brown</persName>, 
+                    <lb/>I shall tell them that we are dealing with the matter by your
+                    <lb/>instructions. Of course, if it appears that the business ought
+                    <lb/>to go through <persName>Curtis Brown</persName> and they ought to have commission, 
+                    <lb/>we should be glad to stand aside as far as any commission is 
+                    <lb/>concerned and continue to do what we can do to dispose of the 
+                    <lb/>rights.
+                </p>
+                <p>
+                    <persName>Mr.Wells</persName> tells me that he has made you an offer in
+                    <lb/>respect to a limited edition. If there is to be a limited 
+                    <lb/>edition, we shall gladly co-operate with <persName>Mr.Wells</persName> and with 
+                    <lb/>you in regard to arranging dates of publication and protection 
+                    <lb/>of the copyright. I hope it may be possible for you to send
+                    <lb/>soon finally corrected proofs, especially if there is to be a 
+                    <lb/>limited edition. If you could arrange to send duplicate final 
+                    <lb/>proofs so that <persName>Mr.Wells</persName> could have
+                    <lb/>one set and we could have the other, matters would be greatly expedited.
+                </p>
+                    
+                  <pb/>
+                <p>
+                    
+                    <lb/>There is one thing about the limited edition matter 
+                    <lb/>which I think I ought to mention, though I do so with some 
+                    <lb/>hesitation. When I recommended the publication of a limited 
+                    <lb/>edition of <title>ORLANDO</title> by <persName>Mr. Gaige</persName>, my recommendation was 
+                    <lb/>based on long knowledge of him and complete certainty of his
+                    <lb/>reliability. As for his successors, I have not the same 
+                    <lb/>knowledge or the same certainty, and I should have hesitated 
+                    <lb/>to make a similar recommendation. Of course, you are dealing 
+                    <lb/>with Messrs.<persName>Wells</persName> and <unclear reason="illegible"><persName>Adams</persName></unclear> direct, and it is probably all
+                    <lb/>right for you to take whatever risk is involved. It is 
+                    <lb/>simply that I really know next to nothing about them, and that 
+                    <lb/>in succeeding <persName>Mr.Gaige</persName>, they do not succeed to the complete
+                    <lb/>confidence I have in him. Please don't take this any more 
+                    <lb/>seriously than it is intended.
+                </p>
+                <p>
+                    With kindest regards to yourself and <persName key="Q703935" >Mr.Woolf</persName>, 
+                </p>
+                <closer>
+                    <salute>
+                        Yours sincerely,
+                    </salute>
+                    <signed>
+                        <persName key="Q5294054">Donald C. Brace</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    
+</TEI>
