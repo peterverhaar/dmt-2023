@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Aline Burch to Penguin Books, 8 July 1948: a
+                    machine-readable transcription</title>
+                <author>
+                    Aline Burch
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Alma Strakova
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Alma Strakova
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Alma Strakova
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                7KB
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2023</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName>Aline Burch</persName> to <orgName>Penguin Books</orgName>, <date when="1948-07-08">8 July 1948</date>
+                    </title>
+                    <author>
+                        Aline Burch
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2023-2024 
+                Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Aline Burch replies on behalf of Leonard Woolf to explain that The Hogarth Press have just reprinted The Common Reader first series as a uniform edition and the second series is now being bound. She relays that a Penguin reprint would have an adverse effect on the sales of the uniform edition and therefore cannot renew their contracts with Penguin
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            West Drayton, Middx.
+                        </placeName>
+                        <date when="1948-07-08">
+                            8th July, 1948.
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <orgName>Penguin Books</orgName>
+                        </addrLine>
+                        <addrLine>
+                            West Drayton, Middx.
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Sir,
+                    </salute>
+                </opener>
+                <p>
+                    	<persName>Mr.Woolf</persName> has asked me to reply<lb/>
+                    to your letter to him of <date when="1948-06-30">June 30</date>,<lb/>
+                    and to explain the position with<lb/>
+                    regard to <title>THE COMMON READER</title>, Series<lb/>
+                    I and II.  We, ourselves, have just<lb/>
+                    been able to reprint the First Series<lb/>
+                    in our Uniform Edition at 7/6d. and<lb/>
+                    the Second Series is at the binders,<lb/>
+                    and <persName>Mr.Woolf</persName> feels that the issue of<lb/>
+                    a 1/6d <orgName>Penguin</orgName> reprint, at the same<lb/>
+                    time, cannot fail to have an adverse<lb/>
+                    affect on the sales of the Uniform<lb/>
+                    Edition.  In the circumstances, there-<lb/>
+                    fore, he would very much prefer not<lb/>
+                    to renew the <orgName>Penguin</orgName> contracts, at<lb/>
+                    any rate for the present.<lb/>
+                </p>
+                <closer>
+                    <salute>
+                        Yours faithfully,
+                    </salute>
+                    <signed>
+                    Secretary to <persName>Mr.Woolf</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

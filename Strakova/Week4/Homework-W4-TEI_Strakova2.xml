@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Coralie Hobson to Leondard Woolf, 4 March 1924: A
+                    machine-readable transcription</title>
+                <author>
+                    Coralie Hobson
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Alma Strakova
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Alma Strakova
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Alma Strakova
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                6KB
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2023</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName>Coralie Hobson</persName> to <persName>Leonard Woolf</persName>, <date when="1924-03-04">4 March 1924</date>
+                    </title>
+                    <author>
+                        Coralie Hobson
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2023-2024
+                    Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Hobson writes to confirm that she would like The Hogarth Press to publish her book and also suggests the title: 'Smoke Rings'
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            56 Cartwright
+                        </placeName>
+                        <date when="1924-03-04">
+                            March 4th 24
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            56 Cartwright
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Sir
+                    </salute>
+                </opener>
+                <p>
+                    I Thank you for your letter of the<lb/>
+                    <date when="1924-03-04">1st mrt.</date> and could confirm that I<lb/>
+                    would like you to publish the book for<lb/>
+                    me on the terms which you suggest.<lb/>
+                    I take it therefore that you will<lb/>
+                    now prepare a formal contract which I<lb/>
+                    shall be glad to receive at your convenience.<lb/>
+                    I also thank you for your speciman page<lb/>
+                    which appears to me to be satisfactory,<lb/>
+                    and which I now return.<lb/>
+                    I suggest as a title for the book<lb/>
+                    "<title>Smoke Rings</title>"
+                </p>
+                <closer>
+                    <salute>
+                        Yours faithfully
+                    </salute>
+                    <signed>
+                    <persName>Coralie Hobson</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
