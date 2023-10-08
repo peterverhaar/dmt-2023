@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Request from Esq. James Kearsley at the Bow Library to receive, if possible, a copy of <title>Kew Gardens</title>.
+                    The request is denied by Aline Burch from the Hogarth Press as they only posess their own file copy. 
+                    Includes a suggestion that the short story can also be found in the collection <title>A Haunted House</title>.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1954-11-22">
+                            {AB} 22nd November, 1954.
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine><persName> James Kearsley, Esq., </persName></addrLine>
+                        <addrLine> <orgName>Bow Library,</orgName></addrLine>
+                        <addrLine> 564 Roman Road,</addrLine>
+                        <addrLine> Bow, E.3.</addrLine>
+                    </address>
+                    <salute>
+                        Dear Sir, 
+                    </salute>
+                </opener>
+                <p>
+                    Thank you for your letter of <date when="--02-18"></date>February
+                    <lb/>18. I'm afraid that we cannot help you 
+                    <lb/>with regard to a copy of <title>KEW GARDENS</title> as
+                    <note><p>short story by <persName key="Q40909">Virginia Woolf</persName> first published privately in 1919. 
+                        Later published in 1921 in the collection <title>Monday or Tuesday</title> 
+                        and finally in 1944 as part of the collection <title>A Haunted House</title></p></note>
+                    <lb/>we have only our file copy. Presumably
+                    <lb/>your friend is anxious to possess the original edition as if he wants to read
+                    <lb/>the story, it is, of course, included
+                    <lb/>in <title>A HAUNTED HOUSE.</title>
+                </p><note><p>Collection of 18 short stories by <persName key="Q40909">Virginia Woolf</persName>
+                    published by the <orgName key="Q1623362">Hogarth Press</orgName> in January 1944</p></note>
+                <p>
+                    I am so sorry not to be able to
+                    <lb/>help you. 
+                </p>
+                <closer>
+                    <salute>Yours faithfully,</salute>
+                    <lb/>
+                    <signed><orgName key="Q1623362"></orgName>for the Hogarth Press Ltd.</signed>
+                    <note><persName key="MAPP0011">Aline Burch</persName></note>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
