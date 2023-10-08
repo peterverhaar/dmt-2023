@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    In this letter the sender responds to Mr. Rosset, expressing interest in his reflections on Zodiac Books, discusses the popularity of Trollope titles versus Jane Austen in their markets, and expresses willingness to handle "SADO" in the United States, inquiring about Mr. Rosset's preferences regarding the edition format.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            PR/MS
+                        </placeName>
+                        <date when="1952-06-04">
+                            4th June, 1952.
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            PR/MS 
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Mr. Rosset, 
+                    </salute>
+                </opener>
+                <p>
+                    Thank you for your letters of the 27th and 28th May.  I was very interested <lb/>
+                    in your reflections on the Zodiac Books.   We ourselves have always found that <lb/>
+                    the Trollope titles proved the most popular largely because our market, as yours, <lb/>
+                    is fairly well saturated with Jane Austen.   I was very interested too in your <lb/>
+                    advertising piece.
+                </p>
+                <p>
+                    With regard to your second letter, there seems to be no objection to handling <lb/>
+                    SADO in the States.   I am not quite clear whether you would like to import bound <lb/>
+                    copies or our actual edition.   We have plenty of sheets of this title and could <lb/>
+                    let you have what you required, but perhaps you could let me know whether you <lb/>
+                    would like our edition bound, flat sheets, or a special edition for yourselves <lb/>
+                    with your own print on them.
+                </p>
+                <p>
+                    The Stendhal and the Proust are, I am afraid, in the hands of American <lb/>
+                    publishers and we know before we start that it would be hopeless to get permission <lb/>
+                    to import our editions.   The Hayward anthologies are however available to the <lb/>
+                    States and the same remarks apply to these as to SADO.   I am sending sample copies <lb/>
+                    of all three.   If you would let me know the form in which you would like them, I <lb/>
+                    can quote you a price.
+                </p>
+                <p> 
+                    I am sending you two complete sets of Proust and the handbooks although we <lb/>
+                    are not supposed to send these books to American, but as I presume they are for <lb/>
+                    your personal use, I do not think the American publishers will mind. <lb/>
+                </p>
+                <closer>
+                    <salute>
+                        Yours sincerely,         
+                    </salute>
+                    <signed>
+                        PR/MS
+                    </signed>
+                    <seg>
+                        Barney Rossett, Esq.,<lb/>
+                        <orgName key="Q3777164">The Grove Press</orgName>,<lb/>
+                        59 West 9th Street,<lb/>
+                        <placeName key="Q60">New York City ll</placeName>,<lb/>
+                        N.Y., U.S.A.
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

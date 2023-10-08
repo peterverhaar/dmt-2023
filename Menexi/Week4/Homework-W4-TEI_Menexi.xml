@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    This letter is a response from the Hogarth Press to an earliers received on the 5th of the month. It confirms acceptance of 1500 copies of the book "SADO," requests the recipient to proceed with typesetting, and asks for proofs as soon as possible in a letter signed by Peggy Belsher, the Secretary of The Hogarth Press.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            <placeName key="Q23436"> EDINBURGH</placeName>
+                        </placeName>
+                        <date when="1931-06-08">
+                            8th June, 1931.
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            Sirs
+                        </addrLine>
+                        <addrLine>
+                            Messrs. R.&amp; R. Clark Ltd., <lb/>
+                            Brandon Street, <lb/>
+                            EDINBURGH.
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Sirs,
+                    </salute>
+                    <seg>
+                        SADO.
+                    </seg>
+                </opener>
+                <p>
+                    We have to thank you for your estimate of the 5th inst., <lb/> 
+                    for 1500 copies of the above book, which we now accept, and <lb/>
+                    shall be glad if you go ahead with the setting and let us see <lb/>
+                    proofs as soon as possible.
+                </p>
+                <closer>
+                    <salute>
+                        Yours faithfully,         
+                    </salute>
+                    <seg>
+                        <orgName key="Q1623362">The Hogarth Press</orgName>,
+                    </seg>
+                    <signed>
+                        <persName key="MAPP0014"> Peggy Belsher</persName>
+                    </signed>
+                    <seg>
+                        Secretary.
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
