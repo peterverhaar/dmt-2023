@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    <!-- summary of contents -->
+                </p>
+            </div>
+        </front>
+        <body>
+        <note>This is COPY of the orginal letter</note>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            London, W.C.L.
+                        </placeName>
+                        <date when="1929-07-18">
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName>Mrs. Virginia Woolf</persName>
+                        </addrLine>
+                        <addrLine>
+                            <addrLine>52 Tavistock Square,</addrLine>
+                            <addrLine>London, W.C.L</addrLine>
+                        </addrLine>
+                    </address>
+                    <salute>Dear Mrs. Woolf</salute>
+                </opener>
+                <p>
+                Thank you for your letter of <date>June 30th</date> enclosing the<lb/> 
+                signed copy of the agreement for <title>A ROOM OF ONE'S OWN </title>. I am<lb/>
+                quite willing to have you retain the <placeName>Canadian</placeName> rights if you wish.
+                </p>
+                <p>
+                In regard to serialization, I had been doing nothing<lb/> 
+                because I thought it was your wish to abandon the idea. In<lb/>
+                <persName>Mr. Woolf's</persName> letter on <date>May 16th</date>, he said: "We will not trouble about<lb/>
+                about serialization, but go straight ahead with publication in<lb/>
+                book form." And besides, the manuscript has been in <persName>Mr.<lb/>
+                Well's</persName> hands. I got the manuscript back from him yesterday,</lb>
+                and have delivered it to <emph rend ="underlined">The Bookman</emph>. I ams sorry if I have<lb/>
+                misinterpreted your wishes, but no doubt there is still time<lb/>
+                as far as <emph rend ="underlined">The Bookman</emph> is concerned.
+                </p>
+                <p>
+                Meanwhile, just after I received your letter, <persName>Curtis<lb/> 
+                Brown's</persName> office telephoned to ask if they could get the manuscript,<lb/>
+                saying that they had a message from you to get in touch with<lb/>
+                us about it. I believe <emph rend ="underlined">The Bookman</emph> had already been asking<lb/>
+                <persName>Curtis Brown</persName>. If I get further inquiries from <persName>Curtis Brown</persName>,<lb/> 
+                I shall tell them that we are dealing with the matter by your<lb/>
+                instructions. Of course, if it appears that the business ought<lb/>
+                to go through <persName>Curtis Brown</persName> and the ought to have a commission,<lb/>
+                we would be glad to stand aside as far as any commission is<lb/>
+                concerned and continue to do what we can dispose of the<lb/>
+                rights.
+                </p>
+                <p>
+                <persName>Mr. Wells</persName> tells me that he has made you an offer in<lb/>
+                respect to a limited edition. If there is to be a limited<lb/>
+                edition, we shall gladly co-operate with <persName>Mr. Wells</persName> and with<lb/>
+                you in regard to arranging dates of publication and protection<lb/>
+                of copyright. I hope it maybe possible for you to send<lb/>
+                soon finally corrected proofs, especially if there is to be a<lb/>
+                limited edition. If you could arrange to send duplicate final<lb/>
+                proofs so that <persName>Mr. Wells</persName> could have one set and we could have<lb/>
+                the other, matters would be greatly expedited.
+                </p>
+                <pb/>
+                <p>
+                There is one thing about the limited edition matter<lb/>
+                which I think I ought to mention, though I do so with some<lb/>
+                hesitation. When I recommend the publication of a limited<lb/> 
+                edition of ORLANDO by <persName>Mr. Gaige</persName>, my recommendation was<lb/>
+                based on long knowledge of him and completed certainty of his<lb/>
+                reliability. As for his successors, I have not the same<lb/>
+                knowledge or the same certainty, and I should have hesitated<lb/>
+                to make similar recommendation. Of course, you are dealing<lb/>
+                with <unclear>Messrs</unclear>. <persName>Wells</persName> and <persName>Adams</persName> direct, and it is probably all<lb/>
+                right for your to take whatever risk is involved. It is<lb/>
+                simply that I really know next to nothing about them, and that<lb/>
+                in succeeding <persName>Mr. Gaige</persName>, they do not succeed to the complete<lb/>
+                confidence I have in him. Please don't take this any more<lb/>
+                seriously than if it is intended.
+                </p>
+                <closer>
+                    <salute>
+                        With kindest regards to yourself and <persName>Mr. Woolf</persNamenmb>,<lb/>
+                        Yours sincerely,
+                    </salute>
+                    <signed/>Donald C. Brace.
+                    <seg>
+                        <!-- post scriptum -->
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
