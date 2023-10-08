@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    <!-- summary of contents -->
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName key="Q30">New York</placeName>
+                    <date when="1945-04-13">April 13th 1945</date>
+                    </dateline>
+                    <address>
+                 <addrLine>
+                 <orgName>Percy Lund Humphries &amp; Company The Country Press Bradford
+</orgName>
+                        </addrLine>
+                        <addrLine>
+                        </addrLine>
+                    </address>
+<add><place type="above"><type="handwriting">MS 2750&sol;554&sol;6</add>
+                    <salute>Dear Sirs,</salute>
+                </opener>
+                <p> 
+<seg type="header"> <hi rend="underline"><title>The Common Reader
+</title> First and Second Series</hi></seg>In reply to your letter of April 12th and further to
+<lb/> our conversation on the telephone with <persName key="Q30087413">Mr. Parley</persName> of your <placeName key="Q84">London</placeName>
+<lb/> office, we now find unfortunately that it is not possible for
+<lb/> us to get the balance of paper needed for the above books to you
+<lb/> in time for you to keep your delivery date of May 15th. We must
+<lb/> therefore ask you to be good enough to reduce the run from 3000
+<lb/> copies to 1800 copies of each Series, using the paper which you
+<lb/> already have, and we shall supply you with enough paper later to
+<lb/> make a second impression, quantity to be decided later.
+<lb/> Will you please therefore print 1200 copies of each Series for
+<lb/><orgName key="Q107234758"> H.M. Stationery Office</orgName> order with special imprint according to
+<lb/> the instructions already given you, and 600 or balance printing
+<lb/> to paper of each Series for our own Uniform Edition.
+<lb/>We trust we shall be receiving pulls of the prelims from you very
+<lb/>shortly. 
+</p>
+                <closer>
+                    <salute>Yours faithfully,</salute>
+                    <signed>for <orgName key="Q1623362">the Hogarth Press</orgName> <persName>Barbara Hepworth</persName>
+                    <signed/>
+                    <address></address>
+<add><place type="below"><type="handwriting">BH</add>
+                    <seg>
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+
