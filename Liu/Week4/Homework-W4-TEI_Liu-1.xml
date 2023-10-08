@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Audrey Heffill to Peggy Belsher, 18th April, 1932: A
+                    machine-readable transcription</title>
+                <author>
+                    Audrey Heffill
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Sunny Liu
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Sunny Liu
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Sunny Liu
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                747 KB
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- idno -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2023</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from Audrey Heffill to Peggy Belsher, 18th April, 1932
+                    </title>
+                    <author>
+                        Audrey Heffill
+                    </author>
+                    <idno type="callNo">
+                        MS 2750/410/47
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2023-2024
+                    Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    requesting dates on which advance royalties were paid
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1932-04-18">
+                            18th April, 1932.
+                        </date>
+                    </dateline>
+                    <address>
+                        <note>No recipient name here, but it is already know that the recipient is Peggy Belsher, with WikiData identifier MAPP0014. How should the info be provided here?</note>
+                        <addrLine>
+                            Stone House,
+                        </addrLine>
+                        <addrLine>
+                            Victoria Road, 
+                        </addrLine>
+                        <addrLine>
+                            Sevenoaks.
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Miss Belsher,
+                    </salute>
+                </opener>
+                <p>
+                    Would you be so kind as to let me know, <lb/>the dates on which the amounts making up <lb/>advance royalties of &#xA3;800 on <emph rend="underlined">All Passion Spent</emph> <lb/>were paid. I have only got two am<emph rend="strikethrough">m</emph>ounts, <lb/>viz. &#xA3;300 in May and &#xA3;300 in November, and as <lb/>Mrs. Nicolson is away from Long Barn I have <lb/>no means of finding out, except through you, <lb/>and I must know for Income Tax returns. I am <lb/>so sorry to worry you.
+                </p>
+                <closer>
+                    <salute>
+                        Yours sincerely,
+                    </salute>
+                    <signed>
+                        <persName key="MAPP0015">Audrey Heffill</persName> <lb/>Secretary.
+                    </signed>
+                </closer>
+            </div>
+        </body>
+        <Annotations></Annotations>
+    </text>
+</TEI>
