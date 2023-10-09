@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Leonard Woold to William Plomer, 1932-10-08: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    <!-- summary of contents -->
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            New York
+                        </placeName>
+                        <date when="1944-05-29">
+                            1944-05-29
+                        </date>
+                    </dateline>
+                    <addrLine><persName > Miss Barbara Hepsworth, </persName></addrLine>
+                    <addrLine> The Hogarth Press,</addrLine>
+                    <addrLine> Pixmore Avenue,</addrLine>
+                    <addrLine> Letchworth, Herts.</addrLine>
+                    <address>
+                        <addrLine>
+                    </address>
+                    <salute>
+                        Dear Miss Hepworth
+                    </salute>
+                </opener>
+                <p>
+                    We have your letter regarding the request from 
+                   </lb>the House of Books, New York for ten copies of your edition of 
+                   </lb>Woolf: A HAUNTED HOUSE, in which you say you assume that we 
+                   </lb>will have no objection to supplying the small order. 
+                   </lb>Naturally, we would not wish to make any difficulty about so 
+                   </lb>small a matter, though it is true, that if similar instances 
+                   </lb>were to be numerous, we should have to object to your supply-
+                   </lb>ing in competition with us in the American market. As you 
+                   </lb> know, we have always consented to your sending over a pre-
+                   </lb>publication supply of each of blank box, out of consideration for the legitimate demand for the English first 
+                    edition.
+                </p>
+                <p>
+                    However, there is a rather different point 
+                    </lb>involved in the case of supplying the English edition, after
+                    </lb>the book has been copyrighted in this country. Under the 
+                    </lb>copyright law, the importation of copies of the copyrighted 
+                    </lb>work for sale is illegal, and the Customs authorities are 
+                    </lb>required to refuse entry. As a matter of fact, the authorities
+                    </lb>are not completely official about this, and copies to slip
+                    </lb>through. The law does not permit even the publisher- 
+                    </lb>that is, the owner of the copyright- to import. We think you 
+                    </lb>should bear this aspect of the problem in mind in dealing
+                    </lb>with orders you may receive for books that are copyrighted 
+                    </lb>here.
+                </p>
+                <closer>
+                    <salute>
+                        You're Sincerly,
+                        </lb>Harcourt, Brace and Company,
+                    </salute>
+                    <signed/>
+                    
+                    <seg>
+                        Donald Brace.Homework-W4-TEI_BENARI_2Homework-W4-TEI_BENARI_2
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
