@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    ABUR_19500117
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Aline Burch to Arnoldo Mondatori Editore, 17/01/1950: A
+                    machine-readable transcription</title>
+                <author>
+                    Aline Burch
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Natasha Molina
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Natasha Molina
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Natasha Molina
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    ABUR_19500117
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2023</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName key="ABUR">Aline Burch</persName> to <persName key="AMED">Arnoldo Mondatori Editore</persName>, <date when="1950-01-17">1 January 1950</date>
+                    </title>
+                    <author>
+                        Aline Burch
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2023-2024
+                    Digital Media Technologies course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Aline Burch responds to Arnoldo Mondatori Editore's letters to the Hogarth Press about queries and issues concerning the Italian rights whithin various of their publications.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1950-01-17">
+                            17th January, 1950 
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <orgsName key="MAPP0020"> Arnoldo Mondatori Editore </orgName>
+                        </addrLine>
+                        <addrLine>
+                            Via Corridoni N.39
+                        </addrLine>
+                         <addrLine>
+                            Milan
+                        </addrLine>
+                        <addrLine>
+                            Italy
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Sirs,
+                    </salute>
+                </opener>
+                <p>
+                Your two letters addressed to <lb/>
+                <placeName key="Q864197">Monks House Rodmell</placeName>have now reached <lb/>
+                us. Will you please note that the <lb/>
+                above is the address of <orgName key="Q1623362"> The Hogarth <lb/>
+                Press</orgName>.
+                <pb/>
+                <persName key="Q703935">Mr. Woolf</persName> has asked me to tell <lb/> 
+                you that as soon as we receive proofs <lb/>
+                of <title>The Captain&apos;s Death Bed</title> by <persName key="Q40909">Virginia <lb/>
+                Woolf</persName>, he will let you have one for <lb/>
+                consideration. Your enquiry for the <lb/>
+                Italian rights in Vol. V of <title>Freud&apos;s <lb/>
+                Collected Papers</title> has been passed to <lb/>
+                <persName key="Q3656215">Mr. Ernst Freud</persName> who handles these rights.
+                <pb/>
+                Your other letter referring to the <lb/>
+                Italian rights in <persName key="Q8018119">William Sansom</persName>&apos;s books <lb/>
+                has been passed to <orgName key="Q1576413">The Society of <lb/>
+                Authors</orgName> who met as agents to this author. 
+                </p>
+                <closer>
+                    <salute>
+                        Yours Faithfully, AB
+                    </salute>
+                    <signed>
+                    for <orgName >The Hogarth Press Ltd.</orgName>
+                    <signed/>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
