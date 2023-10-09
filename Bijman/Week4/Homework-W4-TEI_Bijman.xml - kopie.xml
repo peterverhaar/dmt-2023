@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from C.H.B. Kitchin to Leonard Woolf, : A
+                    machine-readable transcription</title>
+                <author>
+                    C.H.B. Kitchin
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Clarissa Bijman
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Clarissa Bijman
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Clarissa Bijman
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2023</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Letter from Aline Burch to Martin Melsted (05/10/1948) 
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                        <dateline>
+                        <date when="1948-10-05">
+                           AB <lb/> 5th October, 1948. 
+                        </date>
+                    </dateline> 
+                    <address> 
+                           <addrLine>
+                               Martin Melsted, Esq,.
+                           </addrLine>
+                        <addrLine>
+                            75 South Hill Park,<lb/>N.W.3.
+                        </addrLine>
+                    </address>
+                   
+                    <salute>
+                        Dear sir,
+                    </salute>
+                </opener>
+                <p>
+                    Thank you for your letter of the 24th of September. I have pleasure in enclosing an agreement, in duplicate, and I shall be glad if you will get your publishers, Borgens Forlag, to sign both copies and return them to me with the advance. I will then send a copy of the agreement, signed by one of my directors, for their retention.   
+                </p>
+                <lb/>
+                <p>
+                    With regard to the second paragraph of your letter, I understand that Mr. Woolf has already written to you. 
+                </p>
+                <closer>
+                    <salute>
+                        Yours faitfully,
+                    </salute>
+                    <signed> for The Hogarth Press Ltd. </signed> 
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

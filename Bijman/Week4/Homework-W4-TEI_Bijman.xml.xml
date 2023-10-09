@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from C.H.B. Kitchin to Leonard Woolf, : A
+                    machine-readable transcription</title>
+                <author>
+                    C.H.B. Kitchin
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Clarissa Bijman
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Clarissa Bijman
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Clarissa Bijman
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2023</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Letter from C.H.B. Kitchin TO Leonard Woolf (30/10/1924) 
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                        <address> 
+                            <addrLine>
+                            51, South Street<lb/>W.I.
+                        </addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1924-10-30">
+                            30-x-24 
+                        </date>
+                    </dateline>
+                    <salute>
+                        Dear Mr. Woolf
+                    </salute>
+                </opener>
+                <p>
+                    Thank you very much for your letter of Oct. 25th. I am glad to avail myself of your offer to publish my novel on the ‘half-profit system`, and will also give you the first refusal of my next book. 
+                </p>
+                <p>
+                    I will send you the revised type-script in two or three days,<pb/>when I have made a few corrections which I have in mind. I shall also change the title, with which I have never been satisfied.
+                </p>
+                <closer>
+                    <salute>
+                        Yours Sincerely
+                    </salute>
+                    <signed> Clifford H.B. Kitchin </signed> 
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
