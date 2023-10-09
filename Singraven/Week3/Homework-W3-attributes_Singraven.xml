@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entities [
+<!ELEMENT expression (#PCDATA)>
+<!ELEMENT math (#PCDATA | expression | evaluation)*>
+<!ELEMENT french (#PCDATA)>
+<!ELEMENT entities (#PCDATA | math | french)*>
+<!ELEMENT evaluation (#PCDATA)> ]>
+
+<entities>
+    <math>
+        <expression>20 &lt; 50</expression>
+        <evaluation>true</evaluation>
+    </math>
+    <french>Il nous était très agréable d&apos;aprendre que vous avez les numismatiques&#44; mais il nous fachait bien de en même temps&#44; que vous n'en possedez pas une épreuve&#46; </french>
+</entities>
