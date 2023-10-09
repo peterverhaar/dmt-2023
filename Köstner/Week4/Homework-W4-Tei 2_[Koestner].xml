@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Aline Bruch to Ian Parsons, 09-09-1949: A
+                    machine-readable transcription</title>
+                <author>
+                    <persName key="MAPP0011">Aline Burch</persName>
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Vanessa K&#xF6;stner
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Vanessa K&#xF6;stner
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Vanessa K&#xF6;stner
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2023</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from Aline Burch to Ian Parson, 09-08-1949
+                    </title>
+                    <author>
+                        Aline Burch
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2023-2024
+                    Digital Media course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <P>Correspondence between secretary Aline Burch and Ian Parson about corrections for Mr. Woolf </lb></p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            <!-- place name as in letter -->
+                        </placeName>
+                        <date when="YYYY-MM-DD">
+                            1949-08-09
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName key="Q18576354">Ian Parson</persName>
+                        </addrLine>
+                        <addrLine>
+                            <!-- recipient's address (add <addrLine>s as required) -->
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Mr. Parson
+                    </salute>
+                </opener>
+                <p>
+                    Mr. Woolf asked me to show</lb>
+                    you this and to tell you that</lb> 
+                    he brought it down himself</lb>
+                    but you were engaged. He</lb> 
+                    say if you will let him</lb>
+                    know how you would prefer</lb>
+                    Miss Sackville-West to send</lb>
+                    in the corrections, he will</lb>
+                    reply accordingly. Will</lb> 
+                    you please let me have the</lb>
+                    letter back with this</lb>
+                    information&#63;</lb>
+                    A</lb>
+                    <note>
+                    <add type="handwriting" place="below">
+                    We have no <unclear reason="bad handwriting"></unclear>, so the book will</lb>
+                    have with <unclear reason="bad handwriting"></unclear> printer by the<unclear reason="bad handwriting"></unclear>offset.</lb>
+                    It will be best, therefore, if Miss</lb>
+                    S.W. sends us a list of the corrections</lb>
+                    as soon as she conveniently can.</lb>
+                    </add>
+                </note>
+                    
+                </p>
+                <closer>
+                    <salute>
+                     
+                    </salute>
+                    <signed type=handwriting>Ian Parson</signed>
+                
+                    <seg>
+                        <!-- post scriptum -->
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

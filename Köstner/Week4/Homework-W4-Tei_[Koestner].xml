@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Hogarth Press to Gordon &amp; Gotch, 1931-01-20: A
+                    machine-readable transcription</title>
+                <author>
+                    Hogarth Press
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Vanessa K&#xF6;stner
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Vanessa K&#xF6;stner
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Vanessa K&#xF6;stner
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2023</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from  Hogarth Press to Gordon &amp; Gotch, 20-01-1931
+                    </title>
+                    <author>
+                        <orgName type="sender" key="Q1623362">Hogarth Press</orgName>
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2023-2024
+                    Digital Media Technologz course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>Informative letter from a printer. Answers questions from a letter before about costs, printing and publishing.</lb></p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            75 Farringdon Street, E.C.4.
+                        </placeName>
+                        <date when="YYYY-MM-DD">
+                            1931-01-20
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName>Gordon &amp; Gotch</persName>
+                        </addrLine>
+                        <addrLine>
+                            75 Farringdon Street, E.C.4.
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Sir,<lb/>
+                    </salute>
+                </opener>
+                <p>
+                    ALL PASSION SPENT &#8208; S. AFRICAN AGENCY.<lb/>
+                    
+                    We have to thank you for your letter oft he 16th inst. And will anser your questions in order.<lb/>
+                    
+                    1. We shall publish in May or June, 1931.<lb/>
+                    2. Your initial order must be for not less than 300 copies.<lb/>
+                    3. If you took.300 copies we would charge, upon the sole agency basis, 3/- per copy, colonial cloth<lb/>
+                    4. If the sole agency is not arranged we should charbe our usual rates, namely, 3/3 for six copies and over and 4/- for less than six copies. Colonial cloth.<lb/>
+                    5. We will let you have proofs as requested when ready.<lb/>
+                    
+                    
+                    Wes hall be glad to receive an early reply from you with regard to the above terms.<lb/>
+                 
+                </p>
+                <closer>
+                    <salute>
+                        Yours faithfully,<lb/>
+                        The Hogarth Press.<lb/>
+                        Secretary
+                    </salute>
+                    <signed/>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
