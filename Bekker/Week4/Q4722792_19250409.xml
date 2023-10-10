@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q4722792_19250409">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="Q4722792">Alfred Harcourt</persName> to <persName key="Q189119">E. M. Forster</persName>, <date when="1925-04-09">April 9, 1925.</date>: A
+                    machine-readable transcription</title>
+                <author>
+                    Alfred Harcourt
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Stijn Bekker
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Stijn Bekker
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Stijn Bekker
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+            
+            
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    Q4722792_19250409
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2023</date>
+            </publicationStmt>
+            
+            
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName>Alfred Harcourt</persName> to <persName>E. M. Forster</persName>, <date when="1925-04-09">April 9, 1925.</date>: A
+                        machine-readable transcription
+                    </title>
+                    <author>
+                        Alfred Harcourt
+                    </author>
+                    <idno type="callNo">
+                        MS 2750/92/23
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2023-2024 Digital Media Technology course, Book and Digital Media Studies, Leiden University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    
+    
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Letter discussing the delivery of proofs of Mrs. Fay, containing concern for leakage of the book citing an experience with A Passage to India.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1925-04-09">
+                            April 9, 1925.
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName><choice><sic>K. M.</sic><corr>E. M.</corr></choice> Forster</persName>
+                        </addrLine>
+                        <addrLine>
+                            West Hackhurst<lb/>
+                            Abinger Hammer<lb/>
+                            Dorking, England<lb/>
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Mr. Forster,
+                    </salute>
+                </opener>
+                <p>
+                    Mr. Brace landed in Naples last Tuesday and plans<lb/>
+                    to arrive in London at the end of the month. I know he looks for-<lb/>
+                    ward to seeing you. I have your favor of March 27th and the com-<lb/>
+                    plete corrected proofs of <title>Mrs. Fay</title>. I have spent and enjoyable <lb/>
+                    hour looking through them -- it is an engaging book. 
+                </p>
+                <p>
+                    I have personally impressed upon our manufacturing <lb/>
+                    department all that you say about the necessity of following copy <lb/>
+                    exactly, and I have given them and had then send <choice><sic>tu</sic><corr>to</corr></choice> our printers a <lb/>
+                    copy of that part of your letter referring to the matter. About <lb/>
+                    sending you proofs: How that I have looked at the book, I see that <lb/>
+                    it is just the <unclear reason="low-resolution scan" cert="medium">wort api</unclear> to be freely imported in the British edition. <lb/>
+                    I am, therefore, inclined to publish it as nearly simultaneously <lb/>
+                    with <orgName key="Q1623362">The Hogarth Press</orgName> as it is possible for us to do so. You will, <lb/>
+                    of course, be careful to have <orgName>The Hogarth Press</orgName> send us two copies <lb/>
+                    of the British edition as soon as they are available, in order that <lb/>
+                    we may take out ad interim copyright. Will you also send us their <lb/>
+                    date of publication as soon <unclear reason="low-resolution scan" cert="high">as</unclear> it is settled? Perhaps it would be <lb/>
+                    wise to cable this date. If it is late enough so that we can send <lb/>
+                    you proofs, we shall be glad to do so. If there is not time, I do <lb/>
+                    not feel that we ought to run the risk of leakage -- our <choice><sic>uulesman</sic><corr>salesmen</corr></choice>, <lb/>
+                    who are visiting the bookstores all the time, estimate that at least <lb/>
+                    three thousand copies of the British edition of <title>A Passage to India</title> <lb/>
+                    found their way to the American market. 
+                </p>
+                <p>                    
+                    We will proceed to put <title>Mrs. Fay</title> into type as <lb/>
+                    promptly as possible. 
+                </p>
+                <closer>
+                    <salute>
+                        Sincerely yours,
+                    </salute>
+                    <signed>
+                        <persName>Alfred Harcourt</persName>
+                    </signed>
+                    <address>
+                        <addrLine><orgName key="TBT">{Harcourt, Brace and Company, INC.} <lb/>
+                            {PUBLISHERS}</orgName></addrLine>
+                        <addrLine>{360 MADISON AVENUE, NEW YORK}</addrLine>
+                    </address>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

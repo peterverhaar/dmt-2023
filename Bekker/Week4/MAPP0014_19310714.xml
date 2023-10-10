@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MAPP0014_19310714">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Peggy Belsher to J. Armstrong, 14 July 1931: A
+                    machine-readable transcription</title>
+                <author>
+                    Peggy Belsher
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Stijn Bekker
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Stijn Bekker
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Stijn Bekker
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+            
+            
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    MAPP0014_19310714
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2023</date>
+            </publicationStmt>
+            
+            
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from Letter <persName key="MAPP0014">Peggy Belsher</persName> to <persName key="MAPP0014">J. Armstrong</persName>, <date when="1931-07-14">14 July 1931</date>: A machine-readable transcription
+                    </title>
+                    <author>
+                        Peggy Belsher
+                    </author>
+                    <idno type="callNo">
+                        MS 2750/248/4
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2023-2024 Digital Media Technology course, Book and Digital Media Studies, Leiden University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    
+    
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Peggy Belsher informs John Armstrong that she has enclosed a check of 5 pounds for Armstrong designing the cover design of Sado. She asks for him to acknowledge the receipt.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1931-07-14">
+                            14th July, 1931.
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName>J. Armstrong, <choice><abbr>Esq.</abbr><expan>Esquire</expan></choice></persName>,
+                        </addrLine>
+                        <addrLine>
+                            31 Howland Street, W.1.
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Sir,
+                    </salute>
+                </opener>
+                <p>
+                    <title><emph rend="underlined">SADO</emph></title>. <lb/>
+                    We enclose herewith a cheque for 5 ( five pounds ) <lb/>
+                    being the amount due to you for the cover design of the above, <lb/>
+                    book. Kindly acknowledge the receipt of same in due course. 
+                </p>
+                <closer>
+                    <salute>
+                        Yours faithfully,
+                    </salute>
+                    <signed>
+                        <orgName key="Q1623362">The Hogarth Press</orgName>,<lb/>
+                        <unclear reason="faded ink" cert="low">Peggy Belsher</unclear>
+                        Secretary
+                     </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
