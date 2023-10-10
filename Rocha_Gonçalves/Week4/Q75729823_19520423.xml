@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+-<TEI xml:id="Q75729823_19520423" xmlns="http://www.tei-c.org/ns/1.0">
+
+
+
+
+-<teiHeader>
+
+
+-<fileDesc>
+
+
+-<titleStmt>
+
+
+-<title>
+Letter from 
+Alicia Lynn
+
+to 
+Christopher Mann Management Ltd
+
+, 
+1952-04-23
+
+: Amachine-readable transcription
+</title>
+
+
+-<author>
+
+Alicia Lynn
+
+
+</author>
+
+<principal>Prof. dr. Adriaan van der Weel</principal>
+
+
+-<respStmt>
+
+<resp>Creation of machine-readable version: </resp>
+
+
+-<name>
+
+Alice Gonçalves
+
+
+</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Conversion to TEI-conformant markup: </resp>
+
+
+-<name>
+
+Alice Gonçalves
+
+
+</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Editorial annotations: </resp>
+
+
+-<name>
+
+Alice Gonçalves
+
+</name>
+
+</respStmt>
+
+</titleStmt>
+
+
+-<extent>
+
+<!-- file size in kBytes -->
+
+
+</extent>
+
+
+-<publicationStmt>
+
+<distributor>Leiden University</distributor>
+
+<pubPlace>Leiden, The Netherlands </pubPlace>
+
+
+-<address>
+
+<addrLine>P.O. Box 9515</addrLine>
+
+<addrLine>2300 RA Leiden</addrLine>
+
+</address>
+
+
+-<idno>
+
+MAPPxxxxxx_19520423
+
+
+</idno>
+
+
+-<availability>
+
+<p>Publicly accessible </p>
+
+</availability>
+
+
+-<date>
+
+2023
+
+
+</date>
+
+</publicationStmt>
+
+
+-<sourceDesc>
+
+
+-<bibl>
+
+
+-<title>
+Letter from 
+Alicia Lynn
+
+to 
+Christopher Mann Management Ltd
+
+, 
+1952-04-23
+
+
+</title>
+
+
+-<author>
+
+Alicia Lynn
+
+
+</author>
+
+
+-<idno type="callNo">
+
+MS 2750/567/111
+
+
+</idno>
+
+</bibl>
+
+</sourceDesc>
+
+</fileDesc>
+
+
+-<encodingDesc>
+
+
+-<projectDesc>
+
+
+-<p>
+Prepared by students of the 
+2023/2024 
+
+
+Digital Media Technology
+
+course, Book and Digital Media Studies, LeidenUniversity
+</p>
+
+</projectDesc>
+
+
+-<editorialDecl>
+
+<p/>
+
+</editorialDecl>
+
+</encodingDesc>
+
+
+-<profileDesc>
+
+
+-<langUsage>
+
+<language ident="eng">English</language>
+
+</langUsage>
+
+
+-<textClass>
+
+
+-<keywords scheme="http://classificationweb.net">
+
+<term>Correspondence</term>
+
+</keywords>
+
+</textClass>
+
+
+-<textClass>
+
+
+-<keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+
+<term>nonfiction</term>
+
+<term>prose</term>
+
+<term>masculine</term>
+
+</keywords>
+
+</textClass>
+
+</profileDesc>
+
+</teiHeader>
+
+
+-<text>
+
+
+-<front>
+
+
+-<div type="summary">
+
+
+-<p>
+
+The Hogarth Press encloses the contract Virginia Woolf signed with The Hogarth Press for Orlando: A Biography.
+
+Typescript letter [illegible signature]
+
+
+</p>
+
+</div>
+
+</front>
+
+
+-<body>
+
+
+-<div type="letter">
+
+
+-<opener>
+
+
+-<dateline>
+
+
+-<placeName>
+
+London
+
+
+</placeName>
+
+
+-<date when="1952-04-23">
+
+23rd April, 1952.
+
+
+</date>
+
+</dateline>
+
+
+-<address>
+
+
+-<addrLine>
+
+<orgName> Christopher Mann Management Ltd </orgName>
+
+
+</addrLine>
+
+
+-<addrLine>
+
+140, Park Lane,
+London. W. I.
+
+
+</addrLine>
+
+</address>
+
+
+-<salute>
+
+Dear Mrs. Roberts,
+
+
+</salute>
+
+</opener>
+
+
+-<p>
+
+I understand from Mr. Woolf
+that he promised to let you see the
+contrast between the late Mrs. Woolf 
+and The Hogarth Press for Orlando,
+which I have much pleasure in enclosing
+with this letter. As this is an original,
+perhaps you could let us have it back 
+as soon as you have finished with it. 
+
+
+
+</p>
+
+
+-<closer>
+
+
+-<salute>
+
+Yours sincerely,
+
+</salute>
+
+<signed/>
+
+
+
+
+</closer>
+
+</div>
+
+</body>
+
+</text>
+
+</TEI>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+-<TEI xml:id="MAPP0011_19480923" xmlns="http://www.tei-c.org/ns/1.0">
+
+
+
+
+-<teiHeader>
+
+
+-<fileDesc>
+
+
+-<titleStmt>
+
+
+-<title>
+Letter from 
+Aline Burch
+
+to 
+The Hogarth Press Ltd.
+
+, 
+1948-09-23
+
+: Amachine-readable transcription
+</title>
+
+
+-<author>
+
+Aline Burch
+
+
+</author>
+
+<principal>Prof. dr. Adriaan van der Weel</principal>
+
+
+-<respStmt>
+
+<resp>Creation of machine-readable version: </resp>
+
+
+-<name>
+
+Alice Gonçalves
+
+
+</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Conversion to TEI-conformant markup: </resp>
+
+
+-<name>
+
+Alice Gonçalves
+
+
+</name>
+
+</respStmt>
+
+
+-<respStmt>
+
+<resp>Editorial annotations: </resp>
+
+
+-<name>
+
+Alice Gonçalves
+
+</name>
+
+</respStmt>
+
+</titleStmt>
+
+
+-<extent>
+
+<!-- file size in kBytes -->
+
+
+</extent>
+
+
+-<publicationStmt>
+
+<distributor>Leiden University</distributor>
+
+<pubPlace>Leiden, The Netherlands </pubPlace>
+
+
+-<address>
+
+<addrLine>P.O. Box 9515</addrLine>
+
+<addrLine>2300 RA Leiden</addrLine>
+
+</address>
+
+
+-<idno>
+
+MAPP0011_19480923
+
+
+</idno>
+
+
+-<availability>
+
+<p>Publicly accessible </p>
+
+</availability>
+
+
+-<date>
+
+2023
+
+
+</date>
+
+</publicationStmt>
+
+
+-<sourceDesc>
+
+
+-<bibl>
+
+
+-<title>
+Letter from 
+Aline Burch
+
+to 
+The Hogarth Press Ltd.
+
+, 
+1948-09-23
+
+
+</title>
+
+
+-<author>
+
+Aline Burch
+
+
+</author>
+
+
+-<idno type="callNo">
+
+MS 2750/561/9
+
+
+</idno>
+
+</bibl>
+
+</sourceDesc>
+
+</fileDesc>
+
+
+-<encodingDesc>
+
+
+-<projectDesc>
+
+
+-<p>
+Prepared by students of the 
+2023/2024
+
+
+Digital Media Technology
+
+course, Book and Digital Media Studies, LeidenUniversity
+</p>
+
+</projectDesc>
+
+
+-<editorialDecl>
+
+<p/>
+
+</editorialDecl>
+
+</encodingDesc>
+
+
+-<profileDesc>
+
+
+-<langUsage>
+
+<language ident="eng">English</language>
+
+</langUsage>
+
+
+-<textClass>
+
+
+-<keywords scheme="http://classificationweb.net">
+
+<term>Correspondence</term>
+
+</keywords>
+
+</textClass>
+
+
+-<textClass>
+
+
+-<keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+
+<term>nonfiction</term>
+
+<term>prose</term>
+
+<term>masculine</term>
+
+</keywords>
+
+</textClass>
+
+</profileDesc>
+
+</teiHeader>
+
+
+-<text>
+
+
+-<front>
+
+
+-<div type="summary">
+
+
+-<p>
+
+Burch writes regarding the publication of Letter to a Young Poet in Danish and asks whether it would be published in a journal or in a book form, with note about the cost of each option.
+
+Typescript letter unsigned
+
+
+</p>
+
+</div>
+
+</front>
+
+
+-<body>
+
+
+-<div type="letter">
+
+
+-<opener>
+
+
+-<dateline>
+
+
+-<placeName>
+
+Martin Melsted, Esq.,
+75 South Hill Park, 
+N. W. 3.
+
+
+
+</placeName>
+
+
+-<date when="19481023">
+
+23rd September, 1948.
+
+
+</date>
+
+</dateline>
+
+
+-<address>
+
+
+-<addrLine>
+
+<orgName> The Hogarth Press Ltd. </orgName> 
+
+
+
+</addrLine>
+
+
+-<addrLine>
+
+Martin Melsted, Esq.,
+75 South Hill Park, 
+N. W. 3.
+
+
+
+</addrLine>
+
+</address>
+
+
+-<salute>
+
+Dear Sir,
+
+
+</salute>
+
+</opener>
+
+
+-<p>
+
+With reference to your call at this
+office, I have discussed with Mr. Woolf
+the question of your arranging for
+LETTER TO A YOUNG POET by Virginia Woolf
+to be published in Danish. We are
+willing for you to do this but should
+like to know whether you propose to
+publish it in a journal or whether you
+have a publisher interested in bringing
+it out in book form. If the latter,
+we should, of course, have to have an
+agreement with the publisher and our 
+charge would be a 10% royalty with an 
+advance of Ten Guineas. If, on the
+other hand, you wish to publish it in
+a journal, we should charge a fee of
+Seven Guineas. Perhaps you would be
+good enough to let me know what you
+proposed.
+
+
+</p>
+
+
+-<closer>
+
+
+-<salute>
+
+Yours faithfully,
+
+
+</salute>
+
+<signed/>
+
+
+-<seg>
+
+<!-- post scriptum -->
+
+
+</seg>
+
+</closer>
+
+</div>
+
+</body>
+
+</text>
+
+</TEI>
