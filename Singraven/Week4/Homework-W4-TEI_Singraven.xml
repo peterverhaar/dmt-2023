@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q529405419251223">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Donald Brace to Angus Davidson, 1925-12-23: A
+                    machine-readable transcription</title>
+                <author>
+                    Donald Brace
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Fenna Singraven
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Fenna Singraven
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Fenna Singraven
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    Q529405419251223
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2023</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName>Donald Brace</persName> to <persName>Angus Davidson</persName>, <date when="1925-12-23"> 23 December 1925</date> 
+                    </title>
+                    <author>
+                        Donald Brace
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2023-2024 
+                    Digital MEdia Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    <!-- summary of contents -->
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            New York
+                        </placeName>
+                        <date when="1925-12-23">
+                            December 23, 1925
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                           <persName> Mr. A. H. G. Davidson </persName> 
+                        </addrLine>
+                        <addrLine>
+                            <orgName> The Hogarth Press </orgName>
+                        </addrLine>
+                        <addrLine>
+                           52 Tavistock Square
+                        </addrLine>
+                        <addrLine>
+                            London, W. C. 1, England
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Sir:
+                    </salute>
+                </opener>
+                <p>
+                    After receiving your letter of <date when="1925-12-08">December eighth</date><lb/>
+                    and the copy of <persName>Thompson&apos;s</persName> <title>&quot;The Other Side of the Medal&quot;</title>,<lb/>
+                    we cabled you as follows: 
+                </p>
+                <p> 
+                    &quot;Accept your terms <title> Other Side Medal</title>. Please <lb/>
+                    Advise your publication date and send two <lb/>
+                    copies for interim copyright.&quot;<lb/>
+                </p>
+                <p> 
+                    We now enclose formal agreements in duplicate,<lb/>
+                    both copies having been signed by us. if you find these <lb/>
+                    in order, please return one copy with your signature for <lb/>
+                    our records. The agreements are in conformity with pre-<lb/>
+                    vious agreements between you and us, except that Clause V <lb/>
+                    is somewhat simpler form of the reversion clause. we <lb/>
+                    do not know whether you wish us to have <placeName>Canada</placeName> or not. It<lb/>
+                    is included in the agreement, but if you wish to reserve<lb/>
+                    this market, we would not object, and you can simply<lb/>
+                    cross out the words &quot;and <placeName>Canada</placeName>&quot;.
+                </p>
+                <p>
+                    Apparently, the date of your publication is<lb/>
+                    sufficiently recent to enable us to deposit copies in<lb/>
+                    <placeName>Washington</placeName>within sixty days after your date and protect<lb/>
+                    the copyright. It is for that reason that we asked you<lb/>
+                    in our cable to let us have your date and to send us two<lb/>
+                    more copies for copyrighting purposes.
+                </p>
+                <p>
+                    Although the subject matter may seem remote for<lb/>
+                    this country, the book is written with so much fervor<lb/>
+                    that we found ourselves greatly interested in it, and I<lb/>
+                    hope we shall do well with it.
+                </p>
+                <closer>
+                    <salute>
+                        Faithfully yours
+                    </salute>
+                    <signed> <persName>Danald Brace</persName>
+                    </signed>
+                    <seg/>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
