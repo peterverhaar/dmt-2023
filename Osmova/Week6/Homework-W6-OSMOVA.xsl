@@ -137,3 +137,40 @@
 
 </xsl:stylesheet>
 
+
+<!-- exercise 5 -->
+        <?xml version="1.0" encoding="UTF-8"?>
+
+<xsl:stylesheet version="1.0"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    
+    <!-- Template to match the 'bibliography' element -->
+    <xsl:template match="bibliography">
+        <html>
+            <header>
+                <title>
+                    Bibliography
+                </title>
+            </header>
+            <body>
+                <h2>English titles</h2>
+                <p>
+                    <xsl:apply-templates select="item[language/@languageCode = 'eng']">
+                        <xsl:sort select="fullTitle"/>
+                    </xsl:apply-templates>
+                </p>
+                <h2>Titles written after 2000</h2>
+                <p>
+                    <xsl:apply-templates select="item[imprint/date &gt; 2000]">
+                        <xsl:sort select="fullTitle"/>
+                    </xsl:apply-templates>
+                </p>
+            </body>
+        </html>
+    </xsl:template>
+    
+    <!-- Template to match 'item' elements -->
+    <xsl:template match="item">
+        <xsl:value-of select="fullTitle" /><br/>
+    </xsl:template>
+</xsl:stylesheet>
