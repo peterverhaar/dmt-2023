@@ -65,3 +65,75 @@
 
 
 </xsl:stylesheet>
+        
+
+<!-- exercise 3 -->
+        
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsl:stylesheet version="1.0"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+    <xsl:template match="bibliography">
+        <html>
+            <header>
+                <title>
+                    Bibliography
+                </title>
+            </header>
+            <body>
+                <p>
+                <xsl:for-each select="item">
+                    <!-- this is to sort the title alphabetically -->
+                    <xsl:sort select="fullTitle"/>
+                <xsl:value-of select="fullTitle"/> <br/>
+                </xsl:for-each>
+                </p>
+                
+            </body>
+            
+        </html>
+      
+    </xsl:template>
+
+
+</xsl:stylesheet>
+
+
+<!-- exercise 4 -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsl:stylesheet version="1.0"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+    <xsl:template match="bibliography">
+        <html>
+            <header>
+                <title>
+                    Bibliography
+                </title>
+            </header>
+            <body>
+                <p>
+                <xsl:for-each select="item">
+                    <!-- this is to sort the title alphabetically -->
+                    <xsl:sort select="fullTitle"/>
+                <xsl:value-of select="author/lastName"/>,
+                <xsl:value-of select="author/firstName"/>.
+                <i><xsl:value-of select="fullTitle"/></i>.
+                <xsl:value-of select="imprint/place"/> &#x3A;
+                <xsl:value-of select="imprint/publisher"/>,
+                <xsl:value-of select="imprint/date"/> <br/>
+                </xsl:for-each>
+                </p>
+                
+            </body>
+            
+        </html>
+      
+    </xsl:template>
+
+
+</xsl:stylesheet>
+
