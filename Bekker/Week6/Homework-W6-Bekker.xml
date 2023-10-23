@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE letter [
+<!ELEMENT salute (#PCDATA)>
+<!ELEMENT greeting (#PCDATA)>
+<!ELEMENT body ( dateline | greeting | salute | p | signed)*>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT letter ( head | body)*>
+<!ELEMENT signed (#PCDATA)>
+<!ELEMENT p (#PCDATA | title)*>
+<!ELEMENT dateline ( place | date)*>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT place (#PCDATA)>
+<!ELEMENT head (#PCDATA)>
+] >
+<letter>
+    <head>Letter from De Erven F. Bohn to W. Blackwood and sons, January 22nd, 1873</head>
+    <body>
+        <greeting>Dear Sirs!</greeting>
+        <p>We beg to apply to you the kind request for sending us one week before the publication
+            one copy of Bulwer&apos;s novel: <title>Kenelm Chillingly, His adventures and
+                opinions</title>, which book you have in the press, for what we are inclined to pay
+            30 &#xA3;. When it were possible to send us already now the first volume by the post; it would
+            be yet more agreeable. Mr H.A. Kramers at Rotterdam readily will be our pledge.</p>
+        <salute> your truly</salute>
+        <signed>De Erven F. Bohn</signed>
+    </body>
+</letter>
