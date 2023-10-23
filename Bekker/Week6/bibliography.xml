@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bibliography [
+<!ELEMENT bibliography ( item)*>
+<!ELEMENT author ( firstName | lastName )* >
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT fullTitle ( nonFiling | title )*>
+<!ELEMENT title ( #PCDATA )>
+<!ELEMENT nonFiling ( #PCDATA )>
+<!ELEMENT sortTitle (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+<!ELEMENT physicalDescription ( extent | dimensions)*>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT imprint ( place | publisher | date )*>
+<!ELEMENT extent (#PCDATA)>
+<!ELEMENT item ( language | author | fullTitle | sortTitle | imprint | physicalDescription | edition)*>
+<!ELEMENT dimensions (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ATTLIST language languageCode CDATA #REQUIRED>
+<!ELEMENT place (#PCDATA)>
+]>
+<bibliography>
+    <item>
+        <language languageCode="eng">English</language>
+        <author>
+            <firstName>Peter</firstName>
+            <lastName>Burke</lastName>
+        </author>
+        <fullTitle>
+            <nonFiling>A </nonFiling>
+            <title>Social History of the Media, from Gutenberg to the Internet</title></fullTitle>
+
+        <imprint>
+            <place>London</place>
+            <publisher>Polity Press</publisher>
+            <date>2005</date>
+        </imprint>
+    </item>
+    <item>
+        <language languageCode="eng">English</language>
+        <fullTitle>
+            <nonFiling>The </nonFiling>
+            <title>printing revolution in early modern Europe</title></fullTitle>
+
+        <author>
+            <lastName>Eisenstein</lastName>
+            <firstName>Elizabeth Lewisohn</firstName>
+        </author>
+        <physicalDescription>
+            <extent>XIX, 384 p.</extent>
+            <dimensions>24 cm.</dimensions>
+        </physicalDescription>
+        <imprint>
+            <publisher>Cambridge University Press</publisher>
+            <date>1983</date>
+        </imprint>
+    </item>
+    <item>
+        <language languageCode="eng">English</language>
+        <author>
+            <lastName>Darnton</lastName>
+            <firstName>Robert</firstName>
+        </author>
+        <fullTitle>
+            <nonFiling>The </nonFiling>
+            <title>kiss of Lamourette : reflections in cultural history</title></fullTitle>
+
+        <edition> [New ed.]</edition>
+        <imprint>
+            <place>New York</place>
+            <publisher>Norton</publisher>
+            <date>1990</date>
+        </imprint>
+        <physicalDescription>
+            <extent>XXI, 393 p.</extent>
+            <dimensions>22 cm</dimensions>
+        </physicalDescription>
+    </item>
+    <item>
+        <language languageCode="ger">German</language>
+        <fullTitle>
+            <title>Buchkunde: ein &#xDC;berblick über die Geschichte des Buches</title></fullTitle>
+
+        <author>
+            <firstName>Fritz</firstName>
+            <lastName>Funke</lastName>
+        </author>
+        <imprint>
+            <publisher>Saur</publisher>
+            <place>M&#xFC;nchen</place>
+            <date>1992</date>
+        </imprint>
+        <physicalDescription>
+            <extent>393 p/</extent>
+            <dimensions>25 cm.</dimensions>
+        </physicalDescription>
+    </item>
+    <item>
+        <language languageCode="eng">English</language>
+        <author>
+            <firstName>John B</firstName>
+            <lastName>Thompson</lastName>
+        </author>
+        <fullTitle>
+            <title>Books in the digital age : the transformation of academic and higher education
+                publishing in Britain and the United States</title></fullTitle>
+
+        <imprint>
+            <publisher>Polity</publisher>
+            <place>Cambridge</place>
+            <date>2005</date>
+        </imprint>
+        <physicalDescription>
+            <extent>XI, 468 p</extent>
+            <dimensions>25 cm</dimensions>
+        </physicalDescription>
+    </item>
+    <item>
+        <language languageCode="ger">German</language>
+        <fullTitle>
+            <nonFiling>Die </nonFiling>
+            <title>literarische Welt des Mittelalters</title></fullTitle>
+
+        <author>
+            <firstName>Claudia</firstName>
+            <lastName>Brinker-von der Heyde</lastName>
+        </author>
+        <imprint>
+            <publisher>Wissenschaftliche Buchgesellschaft</publisher>
+            <place>Darmstadt</place>
+            <date>2007</date>
+        </imprint>
+        <physicalDescription>
+            <extent>191 p.</extent>
+            <dimensions>25 cm.</dimensions>
+        </physicalDescription>
+    </item>
+    <item>
+        <language languageCode="fre">French</language>
+        <author>
+            <lastName>Febvre</lastName>
+            <firstName>Lucien</firstName>
+        </author>
+        <fullTitle>
+            <nonFiling>l&apos;</nonFiling>
+            <title>Apparition du livre</title></fullTitle>
+
+        <imprint>
+            <place>Paris</place>
+            <publisher>&#xC9;ditions Albin Michel</publisher>
+            <date>1971</date>
+        </imprint>
+        <physicalDescription>
+            <extent>538 p</extent>
+            <dimensions>18 cm</dimensions>
+        </physicalDescription>
+    </item>
+    <item>
+        <language languageCode="fre">French</language>
+        <fullTitle>
+            <nonFiling>Les </nonFiling>
+            <title>m&#xE9;tamorphoses du livre : entretiens avec Jean-Marc Chatelain et
+                Christian Jacob</title></fullTitle>
+
+        <author>
+            <firstName>Henri-Jean</firstName>
+            <lastName>Martin</lastName>
+        </author>
+        <imprint>
+            <publisher>Albin Miche</publisher>
+            <place>Paris</place>
+            <date>2004</date>
+        </imprint>
+        <physicalDescription>
+            <extent>296 p.</extent>
+            <dimensions>23 cm.</dimensions>
+        </physicalDescription>
+    </item>
+
+
+
+</bibliography>
