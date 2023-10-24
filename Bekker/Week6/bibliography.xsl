@@ -13,8 +13,14 @@
             </head>
             <body>
                 <p>
-                    <xsl:for-each select="item"> <br/>
-                    <xsl:value-of select="fullTitle"/> <br/>
+                    <xsl:for-each select="item">
+					<xsl:sort select="lastName"/>
+                    <xsl:value-of select="author/lastName"/>, <xsl:value-of select="author/firstName"/>.
+					<i><xsl:value-of select="fullTitle"/></i>.
+					<xsl:value-of select="imprint/place"/>: 
+					<xsl:value-of select="imprint/publisher"/>, 
+					<xsl:value-of select="imprint/date"/>.
+					<br/>
 					</xsl:for-each>
                 </p>
             </body>
