@@ -17,7 +17,9 @@
 					<xsl:sort select="lastName"/>
                     <xsl:value-of select="author/lastName"/>, <xsl:value-of select="author/firstName"/>.
 					<i><xsl:value-of select="fullTitle"/></i>.
-					<xsl:value-of select="imprint/place"/>: 
+					<xsl:if test="imprint/place">
+					<xsl:value-of select="imprint/place"/><xsl:text>: </xsl:text>
+					</xsl:if>
 					<xsl:value-of select="imprint/publisher"/>, 
 					<xsl:value-of select="imprint/date"/>.
 					<br/>
