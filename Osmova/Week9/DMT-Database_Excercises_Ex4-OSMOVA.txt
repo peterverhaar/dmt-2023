@@ -1,0 +1,34 @@
+ENTITY: Author
+ATTRIBUTES:
+
+AuthorID (PK)
+Name
+Birthplace
+Birthdate
+Deathplace
+Deathdate
+ENTITY: Book
+ATTRIBUTES:
+
+BookID (PK)
+Title
+AuthorID (FK, connected to table Author)
+Publisher
+PublicationYear
+ENTITY: LoanRegistration
+ATTRIBUTES:
+
+LoanID (PK)
+Borrower
+BookID (FK, connected to table Book)
+BorrowedDate
+ReturnedDate
+ENTITY: Visitor
+ATTRIBUTES:
+
+VisitorID (PK)
+Name
+Birthplace
+Birthdate
+Deathplace
+Deathdate
