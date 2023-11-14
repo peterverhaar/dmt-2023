@@ -1,0 +1,36 @@
+ENTITY: Author
+ATTRIBUTES:
+P_ID (PK)
+Last Name
+First Name
+Place of Birth
+Date of Birth
+Place of Death
+Date of Death
+
+ENTITY: Book-title
+ATTRIBUTES:
+BT_ID (PK)
+P_ID (FK, connected to table Author)
+Place of Publication
+Publisher
+Date of Publication
+
+
+ENTITY: Library-visitor
+ATTRIBUTES:
+LV_ID (PK)
+Last Name
+First Name
+Place of Birth
+Date of Birth
+Place of Death
+Date of Death
+
+ENTITY: Library-loan
+ATTRIBUTES:
+LL_ID (PK)
+LV_ID (FK, connected to table Library-visitor)
+BT_ID (FK, connected to table Book-title)
+Date Borrowed 
+Date Returned 
