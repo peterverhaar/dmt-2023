@@ -1,0 +1,57 @@
+ENTITY: Author
+ATTRIBUTES:
+AuthorName
+    FirstName
+    LastName
+AuthorBirth
+    BirthDate
+        BirthDay
+        BirthMonth
+        BirthYear
+    BirthPlace
+AuthorDeath
+    DeathDate
+        DeathDay
+        DeathMonth
+        DeathYear
+    DeathPlace
+ENTITY: Title
+
+ATTRIBUTES:
+BookTitle
+PublicationPlace
+Publisher
+PublishingYear
+
+ENTITY: LOANS
+LoanerName
+LoanTitle
+LoanAuthor
+LoanDate
+    DateBorrowed
+        BorrowedDay
+        BorrowedMonth
+        BorrowedYear
+    DateReturned
+        ReturnedDay
+        ReturnedMonth
+        ReturnedYear   
+    
+ENTITY: Visitor
+ATTRIBUTES: 
+VisitorName
+    FirstName
+    LastName
+VisitorBirth
+    BirthPlace
+    BirthDate
+        BirthDay
+        BirthMonth
+        BirthYear
+VisitorDeath
+    DeathPlace
+    DeathDate
+        DeathDay
+        DeathMonth
+        DeathYear
+ 
