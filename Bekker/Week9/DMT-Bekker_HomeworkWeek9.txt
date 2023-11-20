@@ -1,0 +1,29 @@
+Registration of loans from the National Library, The Hague:
+
+
+ENTITY: [Name Table]
+ATTRIBUTES:
+[Attribute1] (PK)
+[Attribute2]
+[Attribute3]
+
+ENTITY: borrower
+ATTRIBUTES:
+borrowerName (PK)
+nobleStatus
+[Attribute3]
+
+ENTITY: book
+ATTRIBUTES:
+bookTitle (PK)
+authorName
+publisher
+pubYear
+loanDuration (FK, connected to table [loanTime])
+
+
+ENTITY: loanTime
+ATTRIBUTES:
+loanDuration (PK)
+borrowDate
+returnDate
