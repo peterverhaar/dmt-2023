@@ -1,0 +1,33 @@
+ENTITY:AUTHOR
+ATTRIBUTES:
+1. Name
+3. Book (FK)
+4. Location
+5. Date
+
+ENTITY:BOOK
+ATTRIBUTES:
+1. Author (FK)
+2. Title
+3. Location
+4. Date
+5. Borrower (FK)
+
+ENTITY:BORROWER
+ATTRIBUTES:
+1. Name
+2. Book (FK)
+3. Date
+4. Loaning institution (FK)
+
+ENTITY: LOANING INSTITUTION
+ATTRIBUTES:
+1. Name
+2. Visitors (FK)
+3. Book (FK)
+
+ENTITY:VISITORS 
+ATTRIBUTES:
+1. Name
+2. Date
+
