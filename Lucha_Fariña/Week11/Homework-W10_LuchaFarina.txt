@@ -1,0 +1,42 @@
+PATRICIALUCHA_HOMEWORK_WEEK10
+
+15. 
+select YEAR, count(*) from BOOK
+group by YEAR
+
+16. 
+select DESCRIPTION, avg(SOLD)
+from BOOK as B
+inner join GENRE as G 
+on G.GENRE_ID=B.GENRE
+group by GENRE_ID
+
+17.
+select FIRST_NAME, LAST_NAME, sum(sold)
+from AUTHOR as A
+inner join BOOK as B
+on B.AUTHOR = A.AUTHOR_ID
+group by A.AUTHOR_ID
+
+18. 
+select first_name, last_name, count(*)
+from BOOK
+inner join AUTHOR
+on AUTHOR.AUTHOR_ID=BOOK.AUTHOR
+group by AUTHOR 
+having count(*)>1
+
+19. 
+select NAME, count(*)
+from BOOK as B
+inner join PUBLISHER as P
+on P.PUBL_ID=B.PUBLISHER
+group by PUBLISHER
+having count(*) > 3
+
+20. 
+select DESCRIPTION, sum(sold)
+from BOOK as B
+inner join GENRE as G
+on G.GENRE_ID = B.GENRE
+group by GENRE
