@@ -9,6 +9,7 @@ FROM BOOK
 LEFT JOIN GENRE
 ON GENRE = GENRE_ID
 GROUP BY GENRE;
+<!--Not sure what the exact difference is between GROUP BY GENRE and GROUP BY DESCRIPTION; the only difference I noted was that the latter lists the data in alphabetical order-->
 
 Q17
 SELECT FIRST_NAME,  LAST_NAME, SUM(SOLD)
@@ -32,3 +33,11 @@ LEFT JOIN BOOK
 ON PUBLISHER = PUBL_ID
 GROUP BY PUBLISHER
 HAVING COUNT(*) > 3;
+
+Q20
+SELECT DESCRIPTION, SUM(SOLD)
+FROM BOOK
+LEFT JOIN GENRE
+ON GENRE = GENRE_ID
+GROUP BY GENRE;
+<!--Not sure what the exact difference is between GROUP BY GENRE and GROUP BY DESCRIPTION; the only difference I noted was that the latter lists the data in alphabetical order-->
