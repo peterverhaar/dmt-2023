@@ -44,7 +44,6 @@ nutcase
 addlebrained
 whacko
 deranged
-banana
 batty
 cuckoo
 psychosis
@@ -69,7 +68,6 @@ crackers
 nuts
 spinny
 cracky
-batshit
 crazily
 gaga
 maddening
