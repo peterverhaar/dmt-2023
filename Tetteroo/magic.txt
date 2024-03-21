@@ -1,7 +1,6 @@
 magical
 enchantment
 spell
-illusion
 sorcery
 wizard
 mystical
@@ -38,7 +37,6 @@ enchanter
 conjurer
 mage
 conjury
-summon
 amulet
 dragon
 bewitching
