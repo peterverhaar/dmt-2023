@@ -7,7 +7,6 @@ affection
 kiss
 cherish
 romantic
-lust
 lovesick
 lovey
 love
@@ -29,7 +28,6 @@ soulmate
 endear
 endearment
 sexual
-affectional
 pine
 marry
 affectionate
@@ -46,7 +44,7 @@ bibliophile
 amour
 lovingly
 lovable
-enamour
+enamoured
 intimate
 ladylove
 bibliophily
